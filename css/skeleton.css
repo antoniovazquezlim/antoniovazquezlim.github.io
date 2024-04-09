@@ -124,7 +124,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto";
   color: #222; }
 
 
@@ -416,3 +416,101 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+
+ /* navigation styles */
+nav {
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
+
+.stickyfoot {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
+
+   /* Style all font awesome icons */
+.fa {
+  padding: 1px 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: none;
+  color: #571AEE;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  color: #1aee48;
+}
+
+.ai {
+  padding: 1px 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: none;
+  color: #571AEE;
+}
+
+h5 {
+  text-align: center;
+}
+
+.header-padding {
+  padding-top: 20px;
+}
+
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.para-center {
+  text-align: center;
+}
+
+/* Set font style universally */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat', Arial, sans-serif;
+}
